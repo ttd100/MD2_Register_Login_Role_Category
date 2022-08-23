@@ -26,4 +26,10 @@ public class ViewCategory {
             new Main();
         }
     }
+    public void formShowListCategory(){
+        System.out.println("====id=====name====user======");
+        for (int i = 0; i < categoryList.size(); i++) {
+            System.out.println("======"+categoryList.get(i).getId()+"======"+categoryList.get(i).getName()+"======"+categoryList.get(i).getUser()+"======");
+        }
+    }
 }

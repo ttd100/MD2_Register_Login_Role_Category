@@ -41,6 +41,9 @@ public class Main {
             case 5:
                 new ViewCategory().formCreateCategory();
                 break;
+            case 6:
+                new ViewCategory().formShowListCategory();
+                break;
 
         }
     }
